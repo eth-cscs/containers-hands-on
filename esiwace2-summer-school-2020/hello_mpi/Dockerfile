@@ -3,6 +3,7 @@ FROM debian:buster
 RUN apt-get update && apt-get install -y \
         build-essential             \
         wget                        \
+        ca-certificates             \
         --no-install-recommends     \
     && rm -rf /var/lib/apt/lists/*
 

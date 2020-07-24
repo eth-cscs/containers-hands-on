@@ -1,1 +1,1 @@
-FROM debian:jessie
+FROM debian:buster
